@@ -26,18 +26,18 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white px-6">
-        <div className="text-5xl mb-4">🛡️</div>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 drop-shadow-2xl">
+        <div className="text-6xl mb-4 drop-shadow-lg">🛡️</div>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-6 drop-shadow-2xl" style={{textShadow: '0 4px 20px rgba(0,0,0,0.5)'}}>
           МИССИЯ<br/>СПАСЕНИЯ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8 drop-shadow-lg">
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-95 mb-10 drop-shadow-lg font-bold">
           Образовательная игра, где дети становятся героями-спасателями и учатся правильно действовать в опасных ситуациях
         </p>
         <a
           href="#download"
-          className="inline-block bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-bold hover:bg-neutral-200 transition-colors duration-300"
+          className="inline-block bg-orange-500 text-white px-10 py-4 text-lg font-black rounded-full hover:bg-orange-400 transition-all duration-300 shadow-2xl hover:scale-105 hover:shadow-orange-500/50"
         >
-          Скачать игру
+          🎮 Начать игру!
         </a>
       </div>
     </div>
